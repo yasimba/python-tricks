@@ -1,6 +1,7 @@
 # Table of Contents
 1. [Loops](#loops)
-1. [Slicing](#slicing)
+2. [Slicing](#slicing)
+3. [Zipping](#zipping)
 
 
 
@@ -53,4 +54,17 @@ a[::-1]    # all items in the array, reversed
 a[1::-1]   # the first two items, reversed
 a[:-3:-1]  # the last two items, reversed
 a[-3::-1]  # everything except the last two items, reversed
+```
+
+## Zipping
+
+```python
+#https://sahandsaba.com/thirty-python-language-features-and-tricks-you-may-not-know.html
+a = [1, 2, 3]
+b = ['a', 'b', 'c']
+z = zip(a, b)
+z
+[(1, 'a'), (2, 'b'), (3, 'c')]
+zip(*z)
+[(1, 2, 3), ('a', 'b', 'c')]
 ```
