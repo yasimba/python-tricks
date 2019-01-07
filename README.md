@@ -1,8 +1,14 @@
-Loops
----------
+# Table of Contents
+1. [Loops](#loops)
+1. [Slicing](#slicing)
+
+
+
+## Loops
+
 
 ```python
-#prints from range 1 to n-1
+#print from 1 to n-1
 for i in range(1,10):
   print(i)
 >1
@@ -30,10 +36,10 @@ for i in reversed(range(10)):
 ```
 
 
-Slicing
---------
-```
-https://stackoverflow.com/questions/509211/understanding-pythons-slice-notation
+## Slicing
+
+```python
+#https://stackoverflow.com/questions/509211/understanding-pythons-slice-notation
 a[start:end] # items start through end-1
 a[start:]    # items start through the rest of the array
 a[:end]      # items from the beginning through end-1
