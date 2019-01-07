@@ -2,6 +2,7 @@
 1. [Loops](#loops)
 2. [Slicing](#slicing)
 3. [Zipping](#zipping)
+4. [Strings](#strings)
 
 
 
@@ -67,4 +68,18 @@ z
 [(1, 'a'), (2, 'b'), (3, 'c')]
 zip(*z)
 [(1, 2, 3), ('a', 'b', 'c')]
+```
+
+
+## Strings
+```python
+#source --> tutorialspoint
+isalnum --> Checks whether string consists of alphanumeric characters
+
+str = "this2009";  # No space in this string
+print str.isalnum()
+> True
+str = "this is string example....wow!!!";
+print str.isalnum()
+> False
 ```
