@@ -74,7 +74,7 @@ zip(*z)
 ## Strings
 ```python
 #source --> tutorialspoint
-isalnum --> Checks whether string consists of alphanumeric characters
+#isalnum --> Checks whether string consists of alphanumeric characters
 
 str = "this2009";  # No space in this string
 print str.isalnum()
@@ -82,4 +82,10 @@ print str.isalnum()
 str = "this is string example....wow!!!";
 print str.isalnum()
 > False
+
+#Reverse a string:
+s = 'abcd'
+s[::-1]
+print(s )
+> dcba
 ```
