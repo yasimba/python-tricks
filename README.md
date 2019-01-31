@@ -89,3 +89,13 @@ s[::-1]
 print(s )
 > dcba
 ```
+
+
+## Counters
+```python
+from collections import Counter
+t = 'ABC'
+y = Counter(t)
+print(y)
+>>> Counter({'A':1,'B':1,'C':1})
+```
