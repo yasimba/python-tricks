@@ -87,6 +87,13 @@ s = 'abcd'
 s[::-1]
 print(s )
 > dcba
+
+
+#Comparing strings
+>>> "ab" < "ac"
+True
+>>> min("ab","ac")
+'ab'
 ```
 
 
