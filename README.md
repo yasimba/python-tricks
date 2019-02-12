@@ -105,3 +105,22 @@ y = Counter(t)
 print(y)
 >>> Counter({'A':1,'B':1,'C':1})
 ```
+
+### Stacks
+
+```
+append: Appends object at the end.
+
+x = [1, 2, 3]
+x.append([4, 5])
+print (x)
+gives you: [1, 2, 3, [4, 5]]
+
+extend: Extends list by appending elements from the iterable.
+
+x = [1, 2, 3]
+x.extend([4, 5])
+print (x)
+gives you: [1, 2, 3, 4, 5]
+https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python
+```
